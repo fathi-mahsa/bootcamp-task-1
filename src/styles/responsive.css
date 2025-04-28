@@ -1,0 +1,13 @@
+/*    Responsive     */
+
+@media (min-width: 992px) {
+    .tickets{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width: 1400px) {
+    .tickets{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+

@@ -1,0 +1,126 @@
+/*     Root Variable     */
+:root{
+    --color-primary-1: #219F95;
+    --color-primary-2: #234894;
+    --color-primary-3: #AFCEDD;
+
+    --color-black: #000;
+    --color-body: #1D1616;
+    --color-gray: #696969;
+    --color-white: #fff;
+
+    --app-font-regular: "YekanBakh Regular", "Vazirmatn Regular";
+    --app-font-medium: "YekanBakh Medium", "Vazirmatn Medium";
+    --app-font-bold: "YekanBakh Bold", "Vazirmatn Bold";
+    --app-font-heavy: "YekanBakh Heavy", "Vazirmatn Heavy";
+}
+
+/*
+-----------------
+Reset Style
+-----------------
+*/
+html{
+font-size: 62.5%; 
+box-sizing: border-box;
+}
+*, *::before,*::after{
+box-sizing: inherit;
+}
+body{
+line-height: 1.6;
+font-size: 1.6rem;
+background-color: var(--color-body);
+font-family: var(--app-font-regular);
+}
+a{
+text-decoration: none;
+}
+
+/*     App CSS     */
+.tickets-box{
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin: 20rem auto;
+}
+.tickets-box__header{
+    font-family: var(--app-font-heavy);
+    font-size: 2.4rem;
+    margin-bottom: 2rem; 
+    align-self: flex-start;
+}
+.tickets{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+.ticket{
+    position: relative;
+    padding: 2rem;
+    height: 20rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ticket__date{
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    color: var(--color-gray);
+}
+.ticket__upload{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.ticket__upload-num{
+    background-color: var(--color-primary-3);
+    font-family: var(--app-font-bold);
+    color: var(--color-primary-2);
+    border-radius: 1rem;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ticket__upload-text{
+    font-family: var(--app-font-medium);
+    color: var(--color-primary-2);
+}
+.ticket__info-request{
+    font-family: var(--app-font-bold);
+    font-size: 1.8rem;
+}
+.ticket__info-id{
+    color: var(--color-gray);
+    font-size: 1.4rem;
+}
+.ticket__photo{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.ticket__photo-img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+}
+.ticket__btn{
+    background-color: var(--color-primary-1);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    width: 15rem;
+    height: 6rem;
+    border-radius: 1.5rem;
+}

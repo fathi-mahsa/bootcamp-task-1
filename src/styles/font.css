@@ -1,0 +1,35 @@
+/*    Vazirmatn Fonts     */
+@font-face{
+    font-family: "Vazirmatn Regular";
+    src: url("/assets/fonts/Vazirmatn-Regular.woff2");
+}
+@font-face{
+    font-family: "Vazirmatn Medium";
+    src: url("/assets/fonts/Vazirmatn-Medium.woff2");
+}
+@font-face{
+    font-family: "Vazirmatn Bold";
+    src: url("/assets/fonts/Vazirmatn-Bold.woff2");
+}
+@font-face{
+    font-family: "Vazirmatn Heavy";
+    src: url("/assets/fonts/Vazirmatn-ExtraBold.woff2");
+}
+
+/*    YekanBakh Fonts     */
+@font-face{
+    font-family: "YekanBakh Regular";
+    src: url("/assets/fonts/YekanBakh-Regular.woff");
+}
+@font-face{
+    font-family: "YekanBakh Medium";
+    src: url("/assets/fonts/YekanBakh-Medium.woff");
+}
+@font-face{
+    font-family: "YekanBakh Bold";
+    src: url("/assets/fonts/YekanBakh-Bold.woff");
+}
+@font-face{
+    font-family: "YekanBakh Heavy";
+    src: url("/assets/fonts/YekanBakh-Heavy.woff");
+}
