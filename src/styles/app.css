@@ -1,8 +1,8 @@
 /*     Root Variable     */
 :root{
-    --color-primary-1: #219F95;
+    --color-primary-1: #3F72AF;
     --color-primary-2: #234894;
-    --color-primary-3: #AFCEDD;
+    --color-primary-3: #DBE2EF;
 
     --color-black: #000;
     --color-body: #1D1616;
@@ -59,6 +59,8 @@ text-decoration: none;
     gap: 2rem;
 }
 .ticket{
+    box-shadow:  0 0 3px 0 var(--color-gray);
+    border-radius: 1.5rem;
     position: relative;
     padding: 2rem;
     height: 20rem;
@@ -120,7 +122,11 @@ text-decoration: none;
     position: absolute;
     bottom: 2rem;
     left: 2rem;
-    width: 15rem;
-    height: 6rem;
+    padding: 1.5rem 3rem;
     border-radius: 1.5rem;
+    transition: all 200ms ease-in-out;
+}
+.ticket__btn:hover{
+    transform: scale(1.05);
+    font-family: var(--app-font-bold);
 }
